@@ -26,8 +26,8 @@ export const PostContainer = styled(Link)`
       overflow: hidden;
       text-overflow: ellipsis;
       display: -webkit-box;
-      --webkit-box-orient: vertical;
-      --webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
     }
 
     span {
@@ -41,7 +41,7 @@ export const PostContainer = styled(Link)`
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    --webkit-box-orient: vertical;
-    --webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
   }
 `
